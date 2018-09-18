@@ -1,0 +1,164 @@
+/*
+Theme Name: GoKarir v.9
+Theme URI: 
+Author: Agus Puryanto
+Author URI:
+Description: AngularJS WP theme tutorial
+Version: 9.0
+*/
+
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 9999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #7386D5;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#dismiss:hover {
+    background: #fff;
+    color: #7386D5;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#sidebar .sidebar-header {
+    padding: 14px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+.main-footer {
+    background: #2a2730;
+    color: #99979c;
+    padding: 40px 0;
+}
+
+.main-footer .tags>li>a {
+    color: #99979c;
+    padding: 5px 10px;
+    background: #1f1d23;
+    border-radius: 4px;
+}
+
+/* ------------------------
+   OLD STYLE
+-------------------------- */
+
+#mitra,.sharedaddy{text-align:center}body{padding-top:50px}*{border-radius:0!important}a{text-decoration:none;color:#000}.navbar-inverse{background-color: #4286f4 !important;border: none;}.navbar-inverse .navbar-brand{color:#fff!important;font-weight:bold;}section,section#subscribe{border-top:1px solid #ddd}.navbar-inverse .navbar-nav>li>a{color:#fff}section{padding:20px 0}section#clients{background:#cecece}section#clients .btn-default,section#clients .btn-warning,section#clients .form-control,section#clients .form-group{width:100%!important}#attachment_108746{width:100%!important;}section#subscribe{background:#fff;border-bottom:1px solid #ddd}#subscribe h3{padding:0;margin:0}.jumbotron,.well{margin-bottom:0}.number_left,.number_right{float:left;font:400 3em/1em OpenSansBoldItalic,"Lucida Grande",Arial,Helvetica,sans-serif;margin:10px 20px 10px 10px;color:#fec287}.number_right{padding-left:10px;padding-right:10px}.sticky{background:#FFC;overflow:hidden}.related,.related .list-group{padding-bottom:0!important;margin-bottom:0!important}#sidebar{right:0}#sidebar .widget{margin-bottom:20px;border:1px solid #ddd}#sidebar .widget h3{margin-top:0;margin-bottom:0;padding:10px;color:#777;cursor:not-allowed;background-color:#eee;border-bottom:1px solid #ddd}#sidebar>.widget:first-child {border: none !important;}#sidebar .widget ul{margin:0;padding:0}#sidebar .widget ul li{list-style:none;padding:10px;border-bottom:1px solid #ddd}#sidebar .widget ul li:hover{background:#eee}#sidebar .widget ul li:last-child{border-bottom:none}#sidebar .widget img{width:100%}#sidebar .widget.textwidget{ margin:0px;}.ads,.ads .col-md-6{margin-bottom:20px}#main .list-group{margin:0}#main .list-group .list-group-item{padding:0 20px}#main .panel{margin-top:0;margin-bottom:0}#content .panel-ads,#main .panel-footer .ads{margin-bottom:0!important}#main .panel-body,#main .panel-footer{padding:0}#main .panel-footer .ads{margin-top:20px!important}#main .media,#main_search .media{padding:0 10px;border-bottom:1px solid #ddd;margin-top:0}#main_search .media{border:1px solid #ddd;padding:0 10px}#main div.media:last-child{border-bottom:none}.no-padding{margin:0;padding:0}#mitra{padding:0!important;margin:0!important}.footer{padding:20px 0;background-color:#4286f4;color:#fff;}.footer ul .nav{list-style:none;margin:0;padding:0}.footer ul .nav li a{padding:0}#copy{background:#394755;color:#D6DFE5;padding-bottom:0}#totop{cursor:pointer}.al a{color:#000!important}.page-header{margin-top:0!important}.tab-content{padding:0;border-top:none}.tab-content .tab-pane #map,.tab-content .tab-pane .list-group{margin-bottom:0}.tab-content .search_map{padding:5px 10px}.jobsid iframe,.macthed_content.adsbygoogle iframe{width:100%!important}@media only screen and (max-width:767px){.container-fluid,.row{padding:0}.navbar-header{margin:0}}@media only screen and (max-width:480px){.ads{margin-bottom:0}}.bx-wrapper img{max-width:100%;display:block}.premium-title{font-size:16px}.reguler-title{font-size:20px}.avatar{border-radius:6px;width:80px;height:80px}@media screen and (max-width:768px){.navbar-toggle{margin-left:10px}.side-collapse-container{width:100%;position:relative;left:0;transition:left .4s}.side-collapse-container.out{left:0}.side-collapse{top:50px;bottom:0;left:0;width:250px;position:fixed;overflow:hidden;transition:width .4s;background:#eee}.side-collapse.in{width:0}.navbar-nav>li{border-bottom:1px solid #ddd}.navbar-nav>li>a{color:#000!important}}.lead{font-size:14px!important;}@media (min-width: 1200px){.container {width: 1140px;}}#qualifications {word-wrap: break-word;}@media screen and (max-width: 767px) {h1 {font-size:5.9vw;} h2{font-size:3.0vw;}}.btn-default.btn-ads{margin-top:4px;border-radius:20px !important; border-color:#333}#qualifications img{ width:100% !important; height: auto !important;}
